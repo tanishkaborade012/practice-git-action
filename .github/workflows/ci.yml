@@ -13,3 +13,5 @@ jobs:
         run: echo "Hello Tanishka, CI is working" 
       - name: Show date
         run: date
+      - name: Who triggered
+        run: echo "Triggred by ${{ github.actor }}"
