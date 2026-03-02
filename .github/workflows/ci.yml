@@ -1,6 +1,6 @@
 name: Basic CI
 on: 
-  workflow_dispatch: 
+  on: 
     branches:
       - main
 
