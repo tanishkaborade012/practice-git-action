@@ -14,4 +14,4 @@ jobs:
       - name: Show date
         run: date
       - name: Who triggered
-        run: echo "Triggred by ${{ github.actor }}"
+        run: echo "Triggred by ${{ github.actor }} user"
